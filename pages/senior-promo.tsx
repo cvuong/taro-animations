@@ -33,7 +33,7 @@ export default function SeniorPromoPage() {
       <div className="m-auto flex h-screen flex-col p-4">
         <div className="mb-4 text-center">
           <span
-            className={`text-xl font-bold transition-opacity duration-1000 sm:text-3xl ${titleOpacity}`}
+            className={`text-xl font-bold transition-opacity duration-1000 ${titleOpacity}`}
           >
             It takes 1.7x longer to get promoted to a senior engineer at Amazon
             🤔
