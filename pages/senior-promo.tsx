@@ -39,7 +39,7 @@ export default function SeniorPromoPage() {
             🤔
           </span>
         </div>
-        <div className="flex flex-grow items-end justify-between">
+        <div className="flex flex-grow items-end justify-center gap-x-12">
           <div className={`${barClasses} ${height1} delay-75`}></div>
           <div className={`${barClasses} ${height2} delay-150`}></div>
           <div className={`${barClasses} ${height3} delay-300`}></div>
@@ -47,7 +47,7 @@ export default function SeniorPromoPage() {
             className={`${barClasses} ${height4} bg-grey-600 delay-1000`}
           ></div>
         </div>
-        <div className="flex justify-between py-1">
+        <div className="flex justify-center py-1 gap-x-12">
           <div className={`${logoClasses}`}>
             <Image
               width="40"
