@@ -35,8 +35,8 @@ export default function SeniorPromoPage() {
           <span
             className={`text-xl font-bold transition-opacity duration-1000 ${titleOpacity}`}
           >
-            It takes 1.7x longer to get promoted to a senior engineer at Amazon
-            🤔
+            Leverage our rich dataset to understand promotion times at top
+            companies
           </span>
         </div>
         <div className="flex flex-grow items-end justify-center gap-x-12">
@@ -44,7 +44,7 @@ export default function SeniorPromoPage() {
           <div className={`${barClasses} ${height2} delay-150`}></div>
           <div className={`${barClasses} ${height3} delay-300`}></div>
           <div
-            className={`${barClasses} ${height4} bg-grey-600 delay-1000`}
+            className={`${barClasses} ${height4} bg-yellow-500 delay-1000`}
           ></div>
         </div>
         <div className="flex justify-center py-1 gap-x-12">

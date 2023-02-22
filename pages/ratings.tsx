@@ -35,7 +35,8 @@ function RatingsPage() {
       <span
         className={`text-center text-xl font-bold transition-opacity duration-1000 sm:text-3xl ${titleOpacity}`}
       >
-        You earn a 3x bonus with the highest performance rating
+        Discover how performance ratings at your company translate to promotion
+        and compensation increases
       </span>
       <div className="flex flex-grow items-end justify-center gap-x-4">
         <div
