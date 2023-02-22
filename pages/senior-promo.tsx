@@ -33,7 +33,7 @@ export default function SeniorPromoPage() {
       <div className="m-auto flex h-screen flex-col p-4">
         <div className="mb-4 text-center">
           <span
-            className={`text-xl font-bold transition-opacity duration-1000 ${titleOpacity}`}
+            className={`text-xl sm:text-3xl font-bold transition-opacity duration-1000 ${titleOpacity}`}
           >
             Leverage our rich dataset to understand promotion times at top
             companies
