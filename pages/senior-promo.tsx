@@ -30,59 +30,64 @@ export default function SeniorPromoPage() {
 
   return (
     <>
-      <div className="m-auto flex h-screen flex-col p-4">
-        <div className="mb-4 text-center">
+      {/* <div className="m-auto flex h-screen flex-col p-4"> */}
+      <div className="m-auto flex w-[1270px] h-[760px] flex-row p-4 gap-x-16">
+        <div className="mb-4 text-center max-w-2xl flex justify-center flex-col">
           <span
-            className={`text-xl sm:text-3xl font-bold transition-opacity duration-1000 ${titleOpacity}`}
+            className={`text-xl sm:text-4xl font-bold transition-opacity duration-1000 ${titleOpacity}`}
           >
             Leverage our rich dataset to understand promotion times at top
             companies
           </span>
         </div>
-        <div className="flex flex-grow items-end justify-center gap-x-12">
-          <div className={`${barClasses} ${height1} delay-75`}></div>
-          <div className={`${barClasses} ${height2} delay-150`}></div>
-          <div className={`${barClasses} ${height3} delay-300`}></div>
-          <div
-            className={`${barClasses} ${height4} bg-yellow-500 delay-1000`}
-          ></div>
-        </div>
-        <div className="flex justify-center py-1 gap-x-12">
-          <div className={`${logoClasses}`}>
-            <Image
-              width="40"
-              height="40"
-              className="rounded-full"
-              src="/company_logos/doordash.jpeg"
-              alt="Meta logo"
-            />
+        <div className="h-full w-full flex flex-col">
+          {/* <div className="flex flex-grow items-end justify-center gap-x-12 h-full"> */}
+          <div className="flex flex-grow items-end gap-x-12">
+            <div className={`${barClasses} ${height1} delay-75`}></div>
+            <div className={`${barClasses} ${height2} delay-150`}></div>
+            <div className={`${barClasses} ${height3} delay-300`}></div>
+            <div
+              className={`${barClasses} ${height4} bg-yellow-500 delay-1000`}
+            ></div>
           </div>
-          <div className={`${logoClasses}`}>
-            <Image
-              width="40"
-              height="40"
-              className="rounded-full"
-              src="/company_logos/meta.jpeg"
-              alt="Meta logo"
-            />
-          </div>
-          <div className={`${logoClasses}`}>
-            <Image
-              width="40"
-              height="40"
-              className="rounded-full"
-              src="/company_logos/google.jpeg"
-              alt="Google logo"
-            />
-          </div>
-          <div className={`${logoClasses}`}>
-            <Image
-              width="48"
-              height="48"
-              className="rounded-full"
-              src="/company_logos/amazon.jpeg"
-              alt="Amazon logo"
-            />
+          {/* <div className="flex justify-center py-1 gap-x-12"> */}
+          <div className="flex py-1 gap-x-12">
+            <div className={`${logoClasses}`}>
+              <Image
+                width="40"
+                height="40"
+                className="rounded-full"
+                src="/company_logos/doordash.jpeg"
+                alt="Meta logo"
+              />
+            </div>
+            <div className={`${logoClasses}`}>
+              <Image
+                width="40"
+                height="40"
+                className="rounded-full"
+                src="/company_logos/meta.jpeg"
+                alt="Meta logo"
+              />
+            </div>
+            <div className={`${logoClasses}`}>
+              <Image
+                width="40"
+                height="40"
+                className="rounded-full"
+                src="/company_logos/google.jpeg"
+                alt="Google logo"
+              />
+            </div>
+            <div className={`${logoClasses}`}>
+              <Image
+                width="48"
+                height="48"
+                className="rounded-full"
+                src="/company_logos/amazon.jpeg"
+                alt="Amazon logo"
+              />
+            </div>
           </div>
         </div>
       </div>
